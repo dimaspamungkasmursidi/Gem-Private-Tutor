@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gem Private Tutor - Quality Education at Home</title>
+    
+    <!-- Meta Descriptions -->
+    <meta name="description" content="Gem Private Tutor provides top-quality tutoring services with expert mentors specializing in national and international curricula (Cambridge and IB). Achieve academic excellence from the comfort of your home with our flexible online and onsite options.">
+
+    <!-- Keywords for SEO -->
+    <meta name="keywords" content="private tutor, online tuition, onsite tuition, Cambridge curriculum, IB curriculum, personalized education, quality tutoring, academic success, education services">
+    
+    <!-- Robots -->
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://gemprivatetutor.com/" />
+
+    <!-- Social Media Metadata (Open Graph) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Gem Private Tutor - Quality Education at Home" />
+    <meta property="og:description" content="Transform your learning journey with Gem Private Tutor! Expert tutors specializing in Cambridge and IB curricula, offering online and onsite flexibility for academic excellence." />
+    <meta property="og:image" content="https://gemprivatetutor.com/images/logohero.png" />
+    <meta property="og:url" content="https://gemprivatetutor.com/" />
+    <meta property="og:site_name" content="Gem Private Tutor" />
+
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Gem Private Tutor - Quality Education at Home" />
+    <meta name="twitter:description" content="Achieve academic success with expert tutoring services. We offer national and international curricula (Cambridge/IB) with flexible online and onsite options." />
+    <meta name="twitter:image" content="https://gemprivatetutor.com/images/logohero.png" />
+    <meta name="twitter:url" content="https://gemprivatetutor.com/" />
+
+    <!-- Favicons -->
+    <link rel="icon" href="/images/logohero.png" type="image/x-icon" />
+
+    <!-- Tailwind CSS CDN Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+
+    <!-- AOS CSS CDN Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+
+    <!-- Swiper CSS CDN Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+    <!-- Font and FontAwesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Londrina+Solid:wght@100;300;400;900&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      .font-bangers {
+        font-family: 'Bangers', cursive;
+        padding-left: 2px;
+        padding-right: 2px;
+        letter-spacing: 0.1rem;
+      }
+      .font-ibm {
+        font-family: 'IBM Plex Mono', monospace;
+      }
+      .font-londrina {
+        font-family: 'Londrina Solid', cursive;
+        letter-spacing: 2px;
+      }
+      .swiper-container {
+          width: 100%;
+          max-width: 300px; /* Batasi lebar container */
+          overflow: hidden; /* Hindari elemen yang keluar */
+      }
+      .swiper-slide {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .swiper-button-next,
+      .swiper-button-prev {
+          color: #000; /* Warna navigasi */
+      }
+      .swiper-pagination-bullet {
+          background: #e1e1e1; /* Warna pagination */
+      }
+
+      /* Swiper styles for Premio */
+      #swiper-premio .swiper-slide {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .swiper-button-next-premio,
+      .swiper-button-prev-premio {
+          color: #000;
+          width: 40px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow agar lebih terlihat */
+      }
+      .swiper-pagination-premio .swiper-pagination-bullet {
+          background: #E1E1E1; /* Warna pagination */
+      }
+    </style>
+
+  </head>
+  <body class="leading-relaxed font-ibm bg-gray-200 text-black">
+    <!-- Navbar -->
+    <header class="bg-gradient-to-br from-gray-100 to-gray-400 w-full z-50 shadow-md px-6 md:px-20">
+        <nav class="container mx-auto flex justify-between items-center py-2">
+            <!-- Logo -->
+            <div class="flex-shrink-0" data-aos="fade-right">
+              <img src="/images/logo.png" alt="Logo" class="h-14 rounded-md">
+            </div>
+            <!-- <h3 class="font-bangers text-2xl font-bold bg-gradient-to-br from-black to-gray-500 bg-clip-text text-transparent">
+              Sewa Hiace
+            </h3> -->
+        
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex gap-8 items-center font-ibm" data-aos="fade-left">
+                <a href="#about" class="font-semibold text-black hover:text-blue-500 transition duration-200 smooth-scroll">About Us</a>
+                <a href="#services" class="font-semibold text-black hover:text-blue-500 transition duration-200 smooth-scroll">Services</a>
+                <a href="#tuition-rate" class="font-semibold text-black hover:text-blue-500 transition duration-200 smooth-scroll">Tuition Rate</a>
+                <a href="#gallery" class="font-semibold text-black hover:text-blue-500 transition duration-200 smooth-scroll">Gallery</a>
+                <a href="#testimonials" class="font-semibold text-black hover:text-blue-500 transition duration-200 smooth-scroll">Testimony</a>
+                <a href="#contact" class="font-semibold text-black hover:text-blue-500 transition duration-200 smooth-scroll">Contact</a>
+            </div>
+        
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden focus:outline-none" id="menu-toggle">
+                <svg id="hamburger-icon" class="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+                <svg id="close-icon" class="w-6 h-6 hidden text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+            </button>
+        </nav>
+    
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="w-full h-80 object-cover pt-2 pb-4 space-y-2 text-white hidden">
+            <a href="#about" class="block py-2 px-6 rounded-md font-medium text-black hover:text-blue-500 transition duration-200 smooth-scroll">About Us</a>
+            <a href="#services" class="block py-2 px-6 rounded-md font-medium text-black hover:text-blue-500 transition duration-200 smooth-scroll">Services</a>
+            <a href="#tuition-rate" class="block py-2 px-6 rounded-md font-medium text-black hover:text-blue-500 transition duration-200 smooth-scroll">Tuition Rate</a>
+            <a href="#gallery" class="block py-2 px-6 rounded-md font-medium text-black hover:text-blue-500 transition duration-200 smooth-scroll">Gallery</a>
+            <a href="#testimonials" class="block py-2 px-6 rounded-md font-medium text-black hover:text-blue-500 transition duration-200 smooth-scroll">Testimony</a>
+            <a href="#contact" class="block py-2 px-6 rounded-md font-medium text-black hover:text-blue-500 transition duration-200 smooth-scroll">Contact</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="relative flex items-center justify-center min-h-screen text-white" style="background-image: url('/images/motto.jpeg'); background-size: cover; background-position: center;">
+        <div class="container mx-auto px-6 text-black text-center z-10">
+            <div>
+                <img src="/images/logo.png" alt="logo" class="w-52 rounded-md mx-auto mb-4" data-aos="fade-up">
+            </div>
+            <h1 class="text-4xl md:text-6xl font-londrina font-bold mb-4" data-aos="fade-up" data-aos-delay="100">Quality Education at Home</h1>
+            <p class="text-lg md:text-xl text-gray-800 font-ibm mb-6 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+              Achieve academic success with personalized tutoring that suits your needs. Our experienced tutors are ready to guide you every step of the way.
+            </p>
+            <a href="https://wa.me/62895393978818" class="bg-gradient-to-br from-gray-100 to-gray-400 hover:from-gray-400 hover:to-gray-100 transition duration-300 smooth-scroll text-black py-2 px-6 rounded-lg font-semibold">
+              Join Us Today
+            </a>
+          </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-6 md:px-20">
+        <div class="max-w-7xl mx-auto text-black text-center">
+          <!-- Judul -->
+          <h2 class="text-4xl font-londrina font-bold mb-8" data-aos="fade-up">
+            About Company
+          </h2>
+      
+          <!-- Deskripsi -->
+          <p class="text-lg mb-6 leading-relaxed font-ibm" data-aos="fade-up" data-aos-delay="200">
+            GEM PRIVATE TUTOR was established in 2024 to provide high-quality, personalized tutoring services both online and onsite. Our goal is to bring exceptional education to students' homes, catering to a broad array of subjects, including Mathematics, English, Biology, Business Studies, Chemistry, Physics, Computer Science, Chinese Language, etc. At GEM, we pride ourselves on offering tailored education, ensuring that each student's unique needs are met.
+          </p>
+      
+          <!-- Kolom Visi dan Misi -->
+          <div class="flex flex-col justify-center items-center text-white gap-6 mb-12">
+            <div class="w-full p-6 bg-gradient-to-br from-gray-400 to-gray-500 rounded-lg shadow-xl transform hover:scale-105 transition duration-500" data-aos="fade-right" data-aos-delay="400">
+              <div class="flex items-center justify-center space-x-4 mb-4">
+                <div class="text-3xl">
+                  <i class="fas fa-lightbulb"></i>
+                </div>
+                <h3 class="text-2xl font-semibold font-londrina">Vision</h3>
+              </div>
+              <p class="text-base font-ibm">
+                To empower students with the highest standard of education, customized to their learning needs. <br>
+                To empower teachers across Indonesia by providing opportunities for additional income through private tuition services.
+              </p>
+            </div>
+      
+            <div class="w-full p-6 bg-gradient-to-br from-gray-400 to-gray-500 rounded-lg shadow-xl transform hover:scale-105 transition duration-500" data-aos="fade-left" data-aos-delay="500">
+              <div class="flex items-center justify-center space-x-4 mb-4">
+                <div class="text-3xl">
+                  <i class="fas fa-bullseye"></i>
+                </div>
+                <h3 class="text-2xl font-semibold font-londrina">Mission</h3>
+              </div>
+              <ul class="list-disc list-inside space-y-2 text-base font-ibm pl-4">
+                <li class="flex items-start">
+                  <span class="mr-2 text-xl">&#x2713;</span>
+                  <p class="text-left">
+                    Provide expert tutors with years of experience and deep subject knowledge.
+                  </p> 
+                </li>
+                <li class="flex items-start">
+                  <span class="mr-2 text-xl">&#x2713;</span>
+                  <p class="text-left">
+                    Offer flexibility in education delivery through both online and onsite tutoring.
+                  </p> 
+                </li>
+                <li class="flex items-start">
+                  <span class="mr-2 text-xl">&#x2713;</span>
+                  <p class="text-left">
+                    Deliver a curriculum-inclusive service, covering national curriculum and International curriculum such as Cambridge and IB.
+                  </p> 
+                </li>
+                <li class="flex items-start">
+                  <span class="mr-2 text-xl">&#x2713;</span>
+                  <p class="text-left">
+                    Ensure an inspiring, supportive environment that encourages academic success and personal growth.
+                  </p> 
+                </li>
+                <li class="flex items-start">
+                  <span class="mr-2 text-xl">&#x2713;</span>
+                  <p class="text-left">
+                    Creating opportunities for teachers to earn additional income by offering their tutoring services.
+                  </p> 
+                </li>
+              </ul>
+            </div>            
+          </div>
+      
+          <!-- Tombol -->
+          <div class="mt-10">
+            <a href="https://wa.me/62895393978818" class="bg-gradient-to-br from-gray-100 to-gray-400 hover:from-gray-400 hover:to-gray-100 transition duration-300 smooth-scroll text-black py-2 px-6 rounded-lg font-semibold">
+              Contact Us
+            </a>
+          </div>
+        </div>
+    </section>
+
+    <!-- Value Section -->
+    <section class="py-16 px-6 md:px-20">
+        <div class="max-w-7xl mx-auto text-black text-center">
+        <!-- Judul -->
+        <h2 class="text-4xl font-londrina font-bold mb-8" data-aos="fade-up">
+            Value
+        </h2>
+    
+        <!-- Kolom Nilai -->
+        <div class="flex flex-col lg:flex-row justify-center items-center gap-6 mb-12">
+            <!-- Card Komitmen Terhadap Kualitas -->
+            <div class="w-full lg:w-1/2 p-6 bg-gradient-to-br from-gray-400 to-gray-500 text-white rounded-lg shadow-xl transform hover:scale-105 transition duration-500" data-aos="fade-right" data-aos-delay="400">
+                <div class="flex items-start justify-center space-x-4 text-start mb-4">
+                    <div class="text-3xl">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold font-londrina">Commitment to Quality</h3>
+                </div>
+                <p class="text-base font-ibm text-white">
+                  All our tutors are selected based on expertise and experience, guaranteeing that students receive the best possible education.
+                </p>
+            </div>
+    
+            <!-- Card Pendekatan Berorientasi Pada Siswa -->
+            <div class="w-full lg:w-1/2 p-6 bg-gradient-to-br from-gray-400 to-gray-500 text-white rounded-lg shadow-xl transform hover:scale-105 transition duration-500" data-aos="fade-left" data-aos-delay="500">
+                <div class="flex items-start justify-center space-x-4 text-start mb-4">
+                    <div class="text-3xl">
+                    <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold font-londrina">Student-Centric Approach</h3>
+                </div>
+                <p class="text-base font-ibm text-white">
+                  Education tailored to meet each student’s unique requirements.
+                </p>
+            </div>
+        </div>
+    
+        <!-- Tombol -->
+        <div class="mt-10" data-aos="zoom-in" data-aos-delay="600">
+          <a href="https://wa.me/62895393978818" class="bg-gradient-to-br from-gray-100 to-gray-400 hover:from-gray-400 hover:to-gray-100 transition duration-300 smooth-scroll text-black py-2 px-6 rounded-lg font-semibold">
+            Contact Us
+          </a>
+        </div>
+        </div>
+    </section>
+
+    <!-- Services Provided Section -->
+    <section id="services" class="py-16 px-6 md:px-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto text-center text-black">
+            <!-- Judul -->
+            <h2 class="text-4xl font-londrina font-bold mb-8" data-aos="fade-up">
+              Services Provided
+            </h2>
+        
+            <!-- Konten -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Card Subjects -->
+                <div class="p-6 bg-gradient-to-br from-gray-400 to-gray-500 text-white rounded-lg shadow-xl transform hover:scale-105 transition duration-500" data-aos="fade-right" data-aos-delay="200">
+                    <div class="text-4xl mb-4">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold font-londrina mb-4">Subjects</h3>
+                    <p class="text-base font-ibm leading-relaxed">
+                      Covering a comprehensive list of subjects such as Math, English, Biology, Chemistry, Physics, Computer Science, Chinese Language, Geography, Social studies, Business Studies, etc.
+                    </p>
+                </div>
+        
+                <!-- Card Curriculum -->
+                <div class="p-6 bg-gradient-to-br from-gray-400 to-gray-500 text-white rounded-lg shadow-xl transform hover:scale-105 transition duration-500" data-aos="fade-up" data-aos-delay="400">
+                    <div class="text-4xl mb-4">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold font-londrina mb-4">Curriculum</h3>
+                    <p class="text-base font-ibm leading-relaxed">
+                      Supporting National and International Curriculum such as Cambridge Curriculum (Checkpoint, IGCSE, AS & A Level) and IB Curriculum (IB PYP, IB MYP, IB DP).
+                    </p>
+                </div>
+        
+                <!-- Card Tutoring Modes -->
+                <div class="p-6 bg-gradient-to-br from-gray-400 to-gray-500 text-white rounded-lg shadow-xl transform hover:scale-105 transition duration-500" data-aos="fade-left" data-aos-delay="600">
+                    <div class="text-4xl mb-4">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold font-londrina mb-4">Tutoring Modes</h3>
+                    <p class="text-base font-ibm leading-relaxed">
+                      Offering flexible tutoring services both online and onsite for convenience and accessibility.
+                    </p>
+                </div>
+            </div>
+        
+            <!-- Tombol -->
+            <div class="mt-10" data-aos="zoom-in" data-aos-delay="700">
+              <a href="https://wa.me/62895393978818" class="bg-gradient-to-br from-gray-100 to-gray-400 hover:from-gray-400 hover:to-gray-100 transition duration-300 smooth-scroll text-black py-2 px-6 rounded-lg font-semibold">
+                Contact Us
+              </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tuition Rate Section -->
+    <section id="tuition-rate" class="py-16 px-6 md:px-20 bg-gray-100">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl md:text-4xl font-londrina font-bold text-center mb-8" data-aos="fade-up">Tuition Rate</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+          
+          <!-- Card 1 -->
+          <div class="flex flex-col items-center justify-center bg-gradient-to-br from-white to-gray-200 rounded-lg shadow-lg p-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="w-full text-xl font-londrina font-semibold mb-4 pb-2 text-center border-b-2">Primary</h3>
+            <div class="text-center mb-4">
+              <h4 class="text-lg font-semibold">National Curriculum</h4>
+              <p>150K - 300K</p>
+            </div>
+            <div class="text-center mb-4">
+              <h4 class="text-lg font-semibold">International Curriculum (Cambridge / IB)</h4>
+              <p>300K - 450K</p>
+            </div>
+            <a href="https://wa.me/62895393978818" class="bg-gradient-to-br from-gray-100 to-gray-400 hover:from-gray-400 hover:to-gray-100 transition duration-300 smooth-scroll text-black py-2 px-4 rounded-lg font-semibold">
+              Contact Us
+            </a>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="flex flex-col items-center justify-center bg-gradient-to-br from-white to-gray-200 rounded-lg shadow-lg p-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="w-full text-xl font-londrina font-semibold mb-4 pb-2 text-center border-b-2">Lower Secondary</h3>
+            <div class="text-center mb-4">
+              <h4 class="text-lg font-semibold">National Curriculum</h4>
+              <p>200K - 350K</p>
+            </div>
+            <div class="text-center mb-4">
+              <h4 class="text-lg font-semibold">International Curriculum (Cambridge / IB)</h4>
+              <p>300K - 500K</p>
+            </div>
+            <a href="https://wa.me/62895393978818" class="bg-gradient-to-br from-gray-100 to-gray-400 hover:from-gray-400 hover:to-gray-100 transition duration-300 smooth-scroll text-black py-2 px-4 rounded-lg font-semibold">
+              Contact Us
+            </a>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="flex flex-col items-center justify-center bg-gradient-to-br from-white to-gray-200 rounded-lg shadow-lg p-6" data-aos="fade-up" data-aos-delay="300">
+            <h3 class="w-full text-xl font-londrina font-semibold mb-4 pb-2 text-center border-b-2">Upper Secondary</h3>
+            <div class="text-center mb-4">
+              <h4 class="text-lg font-semibold">National Curriculum</h4>
+              <p>250K - 400K</p>
+            </div>
+            <div class="text-center mb-4">
+              <h4 class="text-lg font-semibold">International Curriculum (Cambridge / IB)</h4>
+              <p>350K - 600K</p>
+            </div>
+            <a href="https://wa.me/62895393978818" class="bg-gradient-to-br from-gray-100 to-gray-400 hover:from-gray-400 hover:to-gray-100 transition duration-300 smooth-scroll text-black py-2 px-4 rounded-lg font-semibold">
+              Contact Us
+            </a>
+          </div>
+
+        </div>
+        <p class="mt-6 font-ibm text-sm text-gray-500 text-center" data-aos="fade-up" data-aos-delay="400">*Price will depend on the mode that is taken (online / onsite), distance if it's onsite, language spoken, etc.</p>
+      </div>
+    </section>
+
+    <!-- Legality Section -->
+    <section class="py-16 px-6 md:px-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto text-black text-center">
+          <!-- Judul -->
+          <h2 class="text-4xl font-londrina font-bold mb-8" data-aos="fade-up">
+              Legality
+          </h2>
+          <p class="text-lg font-ibm mb-10 leading-relaxed" data-aos="fade-up" data-aos-delay="200">
+            We ensure that all our operations are conducted legally and in accordance with Indonesian laws.
+          </p>
+      
+          <!-- Foto dan Deskripsi -->
+          <div class="flex flex-col md:flex-row items-center justify-center place-items-center gap-8">
+              <!-- Foto SK KEMENKUMHAM -->
+              <div class="p-6 bg-gradient-to-br from-gray-300 to-gray-500 text-white rounded-lg shadow-xl transform hover:scale-105 transition duration-500" data-aos="fade-up" data-aos-delay="300">
+              <div class="flex items-center justify-center flex-shrink-0">
+                <img src="/images/kemenkumham.jpg" alt="SK KEMENKUMHAM PT GEM PRIVATE TUTOR" class="w-64 h-80 rounded-lg mb-4 shadow-md">
+              </div>
+              <h3 class="text-2xl font-londrina font-semibold mb-2">SK KEMENKUMHAM</h3>
+              <p class="text-base font-ibm leading-relaxed">
+                Decree from KEMENKUMHAM stating the legality of the establishment of PT GEM PRIVATE TUTOR.
+              </p>
+              </div>
+      
+              <!-- Foto NIB -->
+              <div class="p-6 bg-gradient-to-br from-gray-300 to-gray-500 text-white rounded-lg shadow-xl transform hover:scale-105 transition duration-500" data-aos="fade-up" data-aos-delay="400">
+              <div class="flex items-center justify-center flex-shrink-0">
+                <img src="/images/nib.jpg" alt="NIB GEM PRIVATE TUTOR" class="w-64 h-80 rounded-lg mb-4 shadow-md">
+              </div>
+              <h3 class="text-2xl font-londrina font-semibold mb-2">NIB</h3>
+              <p class="text-base font-ibm leading-relaxed">
+                Nomor Induk Berusaha (NIB) that proves the official operational license of GEM PRIVATE TUTOR.
+              </p>
+              </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Tutoring Gallery Section -->
+    <section id="gallery" class="py-16 px-6 md:px-20 bg-gray-50">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-londrina font-bold text-center mb-12" data-aos="fade-up">Our Tuition Gallery</h2>
+
+        <!-- Online Tuition Section -->
+        <div class="mb-16">
+          <h3 class="text-2xl font-ibm font-semibold text-center mb-6" data-aos="fade-up" data-aos-delay="200">Online Tuition</h3>
+          <!-- Gallery Images for Online Tuition -->
+          <div class="flex flex-col md:flex-row items-center justify-center gap-6">
+            <div class="group relative">
+              <a href="images/online1.png" target="_blank">
+                <img src="images/online1.png" alt="Online Tuition 1" class="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300" data-aos="fade-up" data-aos-delay="300">
+              </a>
+            </div>
+            <div class="group relative">
+              <a href="images/online2.png" target="_blank">
+                <img src="images/online2.png" alt="Online Tuition 2" class="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300" data-aos="fade-up" data-aos-delay="300">
+              </a>
+            </div>
+            <div class="group relative">
+              <a href="images/online3.png" target="_blank">
+                <img src="images/online3.png" alt="Online Tuition 3" class="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300" data-aos="fade-up" data-aos-delay="300">
+              </a>
+            </div>
+          </div>
+          <div class="flex flex-col md:flex-row items-center justify-center gap-6 mt-6">
+            <div class="group relative">
+              <a href="images/online4.png" target="_blank">
+                <img src="images/online4.png" alt="Online Tuition 4" class="w-96 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300" data-aos="fade-up" data-aos-delay="300">
+              </a>
+            </div>
+            <div class="group relative">
+              <a href="images/online5.png" target="_blank">
+                <img src="images/online5.png" alt="Online Tuition 5" class="w-96 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300" data-aos="fade-up" data-aos-delay="300">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Onsite Tuition Section -->
+        <div class="flex flex-col items-center justify-center">
+          <h3 class="text-2xl font-ibm font-semibold text-center mb-6" data-aos="fade-up" data-aos-delay="400">Onsite Tuition</h3>
+          <!-- Gallery Images for Onsite Tuition -->
+          <div class="grid grid-cols-1 sm:grid-cols-3 place-content-center gap-6">
+            <div class="group relative">
+              <a href="images/onsite1.png" target="_blank">
+                <img src="images/onsite1.png" alt="Onsite Tuition 1" class="w-80 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300" data-aos="fade-up" data-aos-delay="500">
+              </a>
+            </div>
+            <div class="group relative">
+              <a href="images/onsite2.png" target="_blank">
+                <img src="images/onsite2.png" alt="Onsite Tuition 2" class="w-80 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300" data-aos="fade-up" data-aos-delay="500">
+              </a>
+            </div>
+            <div class="group relative">
+              <a href="images/onsite3.png" target="_blank">
+                <img src="images/onsite3.png" alt="Onsite Tuition 3" class="w-80 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300" data-aos="fade-up" data-aos-delay="500">
+              </a>
+            </div>
+          </div>
+          
+          <div class="grid grid-cols-1 sm:grid-cols-3 place-content-center gap-6 mt-6">
+            <div class="group relative">
+              <a href="images/onsite4.png" target="_blank">
+                <img src="images/onsite4.png" alt="Onsite Tuition 4" class="w-80 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300" data-aos="fade-up" data-aos-delay="500">
+              </a>
+            </div>
+            <div class="group relative">
+              <a href="images/onsite5.png" target="_blank">
+                <img src="images/onsite5.png" alt="Onsite Tuition 5" class="w-80 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300" data-aos="fade-up" data-aos-delay="500">
+              </a>
+            </div>
+            <div class="group relative">
+              <a href="images/onsite6.png" target="_blank">
+                <img src="images/onsite6.png" alt="Onsite Tuition 6" class="w-80 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300" data-aos="fade-up" data-aos-delay="500">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Carousel Section -->
+    <section id="testimonials" class="py-16 px-6 md:px-20 bg-gray-100">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-londrina font-bold text-center mb-8" data-aos="fade-up">What Our Students Say</h2>
+        
+        <!-- Carousel Wrapper -->
+        <div class="relative w-full md:h-[600px] overflow-hidden">
+          <!-- Carousel Images -->
+          <div class="carousel-images overflow-hidden">
+            <div class="carousel-slide flex transition-transform duration-500 ease-in-out">
+              <div class="w-full flex item-center justify-center flex-shrink-0 p-4">
+                <a href="images/testimony1.png">
+                  <img src="images/testimony1.png" alt="Testimonial 1" class="rounded-lg shadow-lg">
+                </a>
+              </div>
+              <div class="w-full flex item-center justify-center flex-shrink-0 p-4">
+                <a href="images/testimony2.png">
+                  <img src="images/testimony2.png" alt="Testimonial 2" class="rounded-lg shadow-lg">
+                </a>
+              </div>
+              <div class="w-full flex item-center justify-center flex-shrink-0 p-4">
+                <a href="images/testimony3.png">
+                  <img src="images/testimony3.png" alt="Testimonial 3" class="rounded-lg shadow-lg">
+                </a>
+              </div>
+              <div class="w-full flex item-center justify-center flex-shrink-0 p-4">
+                <a href="images/testimony4.png">
+                  <img src="images/testimony4.png" alt="Testimonial 4" class="rounded-lg shadow-lg">
+                </a>
+              </div>
+              <div class="w-full flex item-center justify-center flex-shrink-0 p-4">
+                <a href="images/testimony5.png">
+                  <img src="images/testimony5.png" alt="Testimonial 5" class="rounded-lg shadow-lg">
+                </a>
+              </div>
+              <div class="w-full flex item-center justify-center flex-shrink-0 p-4">
+                <a href="images/testimony6.png">
+                  <img src="images/testimony6.png" alt="Testimonial 6" class="rounded-lg shadow-lg">
+                </a>
+              </div>
+              <div class="w-full flex item-center justify-center flex-shrink-0 p-4">
+                <a href="images/testimony7.png">
+                  <img src="images/testimony7.png" alt="Testimonial 7" class="rounded-lg shadow-lg">
+                </a>
+              </div>
+              <div class="w-full flex item-center justify-center flex-shrink-0 p-4">
+                <a href="images/testimony8.png">
+                  <img src="images/testimony8.jpg" alt="Testimonial 8" class="rounded-lg shadow-lg">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel Controls -->
+          <button class="absolute top-1/2 left-0 transform -translate-y-1/2 bg-black/20 text-white py-2 px-4 rounded-full" id="prevBtn">&#10094;</button>
+          <button class="absolute top-1/2 right-0 transform -translate-y-1/2 bg-black/20 text-white py-2 px-4 rounded-full" id="nextBtn">&#10095;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Tutors and Students Section -->
+    <section class="py-16 px-6 md:px-20 bg-gray-50">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl md:text-4xl font-londrina font-bold text-center mb-12" data-aos="fade-up">Our Tutors and Students</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <!-- Tutors' Universities Logos -->
+          <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+            <img src="images/tutors.jpg" alt="Tutors' Universities Logos" class="rounded-lg shadow-lg">
+          </div>
+          
+          <!-- Students' Universities Logos -->
+          <div class="text-center" data-aos="fade-up" data-aos-delay="200">
+            <img src="images/students.jpg" alt="Students' Universities Logos" class="rounded-lg shadow-lg">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Motto Section -->
+    <section class="py-16 px-6 md:px-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto text-center text-black">
+        <!-- Logo Image -->
+        <div data-aos="fade-up" data-aos-delay="200">
+          <img src="/images/logo.png" alt="Logo" class="w-40 mx-auto mb-6" />
+        </div>
+        
+        <!-- Motto Text -->
+        <div data-aos="fade-up" data-aos-delay="300">
+          <h2 class="text-3xl md:text-4xl font-londrina font-bold mb-4">
+            “Quality Education at Home”
+          </h2>
+          <p class="text-lg md:text-xl font-ibm text-gray-700 max-w-2xl mx-auto">
+            With GEM and BOOK means we provide excellent quality of education as well as we hope the students will be as bright as GEM.
+          </p>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="mt-10" data-aos="zoom-in" data-aos-delay="400">
+          <a href="https://wa.me/62895393978818" class="bg-gradient-to-br from-gray-100 to-gray-400 hover:from-gray-400 hover:to-gray-100 transition duration-300 smooth-scroll text-black py-2 px-6 rounded-lg font-semibold">
+            Contact Us
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 px-6 bg-gray-50">
+      <div class="container mx-auto px-6 md:px-20">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-londrina font-bold text-black mb-4" data-aos="fade-up">
+            Contact Details
+          </h2>
+        </div>
+
+        <div class="flex flex-col md:flex-row items-center gap-12">
+          <!-- Map Section -->
+          <div class="w-full md:w-1/2" data-aos="fade-up" data-aos-delay="200">
+            <iframe 
+              class="w-full h-96 rounded-lg shadow-md" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.4975402352987!2d106.9759992!3d-6.4046712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69950f94e430ad%3A0x37ab1d7d48859c51!2sMETLAND%20TRANSYOGI%20CLUSTER%20AUCKLAND%2C%20CILEUNGSI!5e0!3m2!1sen!2sid!4v1698507879426!5m2!1sen!2sid" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy">
+            </iframe>
+          </div>
+
+          <!-- Address and Contact Information -->
+          <div class="w-full md:w-1/2 text-center md:text-left">
+            <!-- Address -->
+            <div class="mb-8">
+              <p class="text-gray-700 text-lg leading-relaxed mb-4" data-aos="fade-up" data-aos-delay="400">
+                <strong>PT. GEM PRIVATE TUTOR</strong>  
+              </p>
+              <p class="text-gray-700 text-lg leading-relaxed mb-4" data-aos="fade-up" data-aos-delay="400">
+                Jl. Tj III No. 56, Cluster Auckland, Metland Transyogi, Cileungsi, Bogor
+              </p>
+            </div>
+
+            <!-- Contact Information with Icons -->
+            <div class="space-y-4 text-lg" data-aos="fade-up" data-aos-delay="600">
+              <!-- WhatsApp -->
+              <div class="flex items-start text-left font-ibm text-gray-700 hover:text-black">
+                <div class="flex-shrink-0">
+                  <i class="fab fa-whatsapp text-2xl mr-3"></i>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                  <a href="https://wa.me/62895393978818" class="text-transparent bg-clip-text bg-gradient-to-br from-black to-gray-400 hover:underline" target="_blank" rel="noopener noreferrer">
+                    0895-3939-78818
+                  </a>
+                  <p>/</p>
+                  <a href="https://wa.me/628998399315" class="text-transparent bg-clip-text bg-gradient-to-br from-black to-gray-400 hover:underline" target="_blank" rel="noopener noreferrer">
+                    0899-8399-315
+                  </a>
+                </div>
+              </div>
+
+              <!-- Instagram -->
+              <div class="flex items-start text-left font-ibm text-gray-700 hover:text-black">
+                <div class="flex-shrink-0">
+                  <i class="fab fa-instagram text-2xl mr-3"></i>
+                </div>
+                <a href="https://instagram.com/GEMPRIVATETUTOR" class="text-transparent bg-clip-text bg-gradient-to-br from-black to-gray-400 hover:underline" target="_blank" rel="noopener noreferrer">
+                  GEMPRIVATETUTOR
+                </a>
+              </div>
+
+              <!-- TikTok -->
+              <div class="flex items-start text-left font-ibm text-gray-700 hover:text-black">
+                <div class="flex-shrink-0">
+                  <i class="fab fa-tiktok text-2xl mr-3"></i>
+                </div>
+                <a href="https://tiktok.com/@GEMPRIVATETUTOR" class="text-transparent bg-clip-text bg-gradient-to-br from-black to-gray-400 hover:underline" target="_blank" rel="noopener noreferrer">
+                  GEMPRIVATETUTOR
+                </a>
+              </div>
+
+              <!-- Gmail -->
+              <div class="flex items-start text-left font-ibm text-gray-700 hover:text-black">
+                <div class="flex-shrink-0">
+                  <i class="fas fa-envelope text-2xl mr-3"></i>
+                </div>
+                <a href="mailto:gemprivatetutor@gmail.com" class="text-transparent bg-clip-text bg-gradient-to-br from-black to-gray-400 hover:underline" target="_blank" rel="noopener noreferrer">
+                  gemprivatetutor@gmail.com
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gradient-to-br from-white to-gray-400 text-center py-6 px-6">
+      <div class="container mx-auto">
+        <p class="text-sm text-center">
+          © 2024 - PT. GEM PRIVATE TUTOR. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a
+      href="https://wa.me/62895393978818?text=Halo!%20Saya%20ingin%20bertanya%20tentang%2sewa%20Mobil%20Hiace."
+      target="_blank"
+      class="fixed bottom-6 right-6 bg-green-500 text-white rounded-full p-4 hover:bg-green-600 transition-all duration-300 ease-in-out shadow-lg hover:shadow-xl transform hover:scale-110 animate-bounce-slow z-50 group"
+      id="whatsappButton"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-8 w-8"
+        fill="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"
+        />
+      </svg>
+    </a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+      // Inisialisasi AOS
+      AOS.init({
+        duration: 700,
+        once: true,
+      });
+
+      // Toggle mobile menu
+      document
+        .getElementById("menu-toggle")
+        .addEventListener("click", function () {
+          const menu = document.getElementById("mobile-menu");
+          const iconClose = document.getElementById("close-icon");
+          const iconHamburger = document.getElementById("hamburger-icon");
+          menu.classList.toggle("hidden");
+          iconClose.classList.toggle("hidden");
+          iconHamburger.classList.toggle("hidden");
+        });
+
+        // JavaScript for Carousel Functionality
+        let currentIndex = 0;
+        const slidesContainer = document.querySelector('.carousel-slide');
+        const totalSlides = document.querySelectorAll('.carousel-slide > div').length; // Adjusted to count child slides
+
+        const nextButton = document.getElementById('nextBtn');
+        const prevButton = document.getElementById('prevBtn');
+
+        nextButton.addEventListener('click', () => {
+          if (currentIndex < totalSlides - 1) {
+            currentIndex++;
+          } else {
+            currentIndex = 0; // Loop back to the first slide
+          }
+          updateCarousel();
+        });
+
+        prevButton.addEventListener('click', () => {
+          if (currentIndex > 0) {
+            currentIndex--;
+          } else {
+            currentIndex = totalSlides - 1; // Loop back to the last slide
+          }
+          updateCarousel();
+        });
+
+        function updateCarousel() {
+          const offset = -currentIndex * 100; // Move the carousel by 100% per slide
+          slidesContainer.style.transform = `translateX(${offset}%)`; // Translate the entire carousel container
+        }
+    </script>
+  </body>
+</html>
